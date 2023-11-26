@@ -11,7 +11,7 @@ type ColorCardProps={
 }
 
 const ColorCard = ({ color, title, hex, rgb, css, desc }: ColorCardProps) => (
-  <div className={`${color} w-28 h-28 sm:w-32 sm:h-32 rounded-2xl m-2 shadow-lg hover:scale-105 duration-200 group relative  `}>
+  <div className={`${color} w-24 h-24 sm:w-30 sm:h-30 rounded-2xl m-2 shadow-lg hover:scale-105 duration-200 group relative  `}>
 
 
   <div className="invisible group-hover:visible flex items-center justify-center h-full w-full bg-black/20 text-white rounded-2xl backdrop-blur-xl">

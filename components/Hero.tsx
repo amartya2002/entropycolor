@@ -22,10 +22,10 @@ export default function Hero() {
 
       
 
-        <section className="px-8  md:px-12 lg:px-32 mb-10">
+        <section className="px-8  md:px-12 lg:px-32 ">
 
 
-          <div className="text-center">
+          <div className="text-center mb-10">
             
             <h1 className="text-4xl font-semibol leading-tight lg:leding-tight tracking-tighter text-gray-800 dark:text-zinc-200 sm:text-5xl md:text-6xl lg:text-7xl">
               More than a gradient palette, <br className='hidden sm:block' />
@@ -51,11 +51,11 @@ export default function Hero() {
           </div>
 
         </section>
+      <HorizontalCardLayout/>
+      <ColorCardLayout />
       
 
 
-      <HorizontalCardLayout/>
-      <ColorCardLayout />
 
 
 
