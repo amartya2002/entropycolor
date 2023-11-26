@@ -24,17 +24,17 @@ export default function HeroIcon({width, height}: HeroIconProps) {
   }, [theme, mounted]);
 
   return(
-  <div className="pt-20 md:pt-18 pb-8 max-w-7xl">
+  <div className=" pb-6 max-w-7xl">
     <div className=" items-center flex justify-center animate-pulse">
       <svg
         xmlns="http://www.w3.org/2000/svg"
         width={width || 154}
         height={height || 154}
         fill="none"
-        className='animate-spin '
+        className='animate-pulse '
 
       >
-        <circle cx={77} cy={77} r={77} fill={outerCircle || '#000'} />
+        <circle cx={77} cy={77} r={77} fill={ '#000'} />
         <circle
           cx={56.833}
           cy={58.828}
