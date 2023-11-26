@@ -136,30 +136,6 @@
       "description": "A delicate shade reminiscent of cherry blossoms, providing a gentle and subtle touch to the design."
     },
     {
-      "name": "Emerald Dream",
-      "color": "bg-green-300",
-      "hex": "#90EE90",
-      "rgb": "rgb(144, 238, 144)",
-      "css": ".bg-green-300",
-      "description": "A vivid green resembling an enchanting emerald dream, perfect for conveying a sense of nature and growth."
-    },
-    {
-      "name": "Azure Sky",
-      "color": "bg-blue-300",
-      "hex": "#ADD8E6",
-      "rgb": "rgb(173, 216, 230)",
-      "css": ".bg-blue-300",
-      "description": "A calming shade reminiscent of the azure sky, suitable for a serene and friendly atmosphere."
-    },
-    {
-      "name": "Golden Glow",
-      "color": "bg-yellow-300",
-      "hex": "#FFFF99",
-      "rgb": "rgb(255, 255, 153)",
-      "css": ".bg-yellow-300",
-      "description": "A cheerful golden glow, adding warmth and positivity to the design."
-    },
-    {
       "name": "Cherry Blossom",
       "color": "bg-red-200",
       "hex": "#FFA07A",
@@ -294,95 +270,8 @@
       "rgb": "rgb(255, 160, 122)",
       "css": ".bg-red-200",
       "description": "A delicate shade reminiscent of cherry blossoms, providing a gentle and subtle touch to the design."
-    },
-    {
-      "name": "Emerald Dream",
-      "color": "bg-green-300",
-      "hex": "#90EE90",
-      "rgb": "rgb(144, 238, 144)",
-      "css": ".bg-green-300",
-      "description": "A vivid green resembling an enchanting emerald dream, perfect for conveying a sense of nature and growth."
-    },
-    {
-      "name": "Azure Sky",
-      "color": "bg-blue-300",
-      "hex": "#ADD8E6",
-      "rgb": "rgb(173, 216, 230)",
-      "css": ".bg-blue-300",
-      "description": "A calming shade reminiscent of the azure sky, suitable for a serene and friendly atmosphere."
-    },
-    {
-      "name": "Golden Glow",
-      "color": "bg-yellow-300",
-      "hex": "#FFFF99",
-      "rgb": "rgb(255, 255, 153)",
-      "css": ".bg-yellow-300",
-      "description": "A cheerful golden glow, adding warmth and positivity to the design."
-    },
-    {
-      "name": "Cherry Blossom",
-      "color": "bg-red-200",
-      "hex": "#FFA07A",
-      "rgb": "rgb(255, 160, 122)",
-      "css": ".bg-red-200",
-      "description": "A delicate shade reminiscent of cherry blossoms, providing a gentle and subtle touch to the design."
-    },
-    {
-      "name": "Emerald Dream",
-      "color": "bg-green-300",
-      "hex": "#90EE90",
-      "rgb": "rgb(144, 238, 144)",
-      "css": ".bg-green-300",
-      "description": "A vivid green resembling an enchanting emerald dream, perfect for conveying a sense of nature and growth."
-    },
-    {
-      "name": "Azure Sky",
-      "color": "bg-blue-300",
-      "hex": "#ADD8E6",
-      "rgb": "rgb(173, 216, 230)",
-      "css": ".bg-blue-300",
-      "description": "A calming shade reminiscent of the azure sky, suitable for a serene and friendly atmosphere."
-    },
-    {
-      "name": "Golden Glow",
-      "color": "bg-yellow-300",
-      "hex": "#FFFF99",
-      "rgb": "rgb(255, 255, 153)",
-      "css": ".bg-yellow-300",
-      "description": "A cheerful golden glow, adding warmth and positivity to the design."
-    },
-    {
-      "name": "Cherry Blossom",
-      "color": "bg-red-200",
-      "hex": "#FFA07A",
-      "rgb": "rgb(255, 160, 122)",
-      "css": ".bg-red-200",
-      "description": "A delicate shade reminiscent of cherry blossoms, providing a gentle and subtle touch to the design."
-    },
-    {
-      "name": "Emerald Dream",
-      "color": "bg-green-300",
-      "hex": "#90EE90",
-      "rgb": "rgb(144, 238, 144)",
-      "css": ".bg-green-300",
-      "description": "A vivid green resembling an enchanting emerald dream, perfect for conveying a sense of nature and growth."
-    },
-    {
-      "name": "Azure Sky",
-      "color": "bg-blue-300",
-      "hex": "#ADD8E6",
-      "rgb": "rgb(173, 216, 230)",
-      "css": ".bg-blue-300",
-      "description": "A calming shade reminiscent of the azure sky, suitable for a serene and friendly atmosphere."
-    },
-    {
-      "name": "Golden Glow",
-      "color": "bg-yellow-300",
-      "hex": "#FFFF99",
-      "rgb": "rgb(255, 255, 153)",
-      "css": ".bg-yellow-300",
-      "description": "A cheerful golden glow, adding warmth and positivity to the design."
     }
+
     
 
 

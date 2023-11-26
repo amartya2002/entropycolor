@@ -10,13 +10,14 @@ type ColorCardProps={
   desc: string;
 }
 
-const ColorCard = ({ color, title, hex, rgb, css, desc }: ColorCardProps) => (
-  <div className={`${color} w-28 h-28 sm:w-32 sm:h-32 rounded-2xl m-2 shadow-lg hover:scale-105 duration-200 group relative  `}>
+const HorizontalColorCard = ({ color, title, hex, rgb, css, desc }: ColorCardProps) => (
+  <div className={`${color} w-[85vw] md:w-[75vw] h-20 rounded-2xl shadow-md hover:scale-[1.01] duration-200 group relative m-2  `}>
 
 
   <div className="invisible group-hover:visible flex items-center justify-center h-full w-full bg-black/20 text-white rounded-2xl backdrop-blur-xl">
   <MyDrawer title={title} description={desc} tailwind={color} css={css} hex={hex}  rgb={rgb}   />
   </div>
+  <div className="items-center justify-center flex mx-auto h-full text-black"></div>
 
 
 
@@ -24,4 +25,4 @@ const ColorCard = ({ color, title, hex, rgb, css, desc }: ColorCardProps) => (
   </div>
 );
 
-export default ColorCard
+export default HorizontalColorCard

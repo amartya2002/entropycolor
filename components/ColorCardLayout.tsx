@@ -2,16 +2,12 @@
 import ColorCard from '@/components/ColorCard'
 import colors from '@/data/colors.json'
 
-
-
-
-
 const ColorCardLayout = () => (
-    <div className='z-21'>
-        <p className='max-w-7xl px-8 lg:px-40   text-center font-medium text-2xl  text-gray-800 mb-6  '>Some shades for <span className='block text-blue-500 '>your new project.</span></p>
-        <div className=' flex justify-center '>
+    <div className='max-w-7xl mx-auto'>
+        <p className=' px-8 lg:px-40 text-center font-medium text-2xl  text-gray-800 pb-8 dark:text-zinc-200  '>Some shades for <span className='text-blue-500 block dark:text-transparent dark:bg-clip-text dark:bg-gradient-to-t from-zinc-500 to-zinc-200 '>your new project.</span></p>
+        <div className=' flex justify-center'>
 
-            <div className=' rounded-2xl p-2 h-screen z-21  overflow-y-scroll no-scrollbar  bg-zinc-50' >
+            <div className=' border-4 dark:border-zinc-700 border-zinc-100 rounded-2xl p-2 h-[70vh]  z-21  overflow-y-scroll no-scrollbar dark:bg-transparent  ' >
                 <div className='grid grid-cols-3 sm:grid-cols-4 md:grid-cols-5   '>
                     {colors.map((color, index) => (
                         <ColorCard key={index} color={color.color} title={color.name} desc={color.description} css={color.css} rgb={color.rgb} hex={color.hex} />

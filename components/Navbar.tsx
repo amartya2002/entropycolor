@@ -1,15 +1,16 @@
 "use client"
 import React, { useState } from 'react';
-import NavBadge from './Nav-Badge';
+import Badge from './Badge'; //need types
+import ThemeToggle from './ThemeToggle';
 
 const Navbar = () => {
   const [open, setOpen] = useState(false);
 
   return (
-    <div className="justify-center w-full mx-auto bg-white/60 sticky top-0 backdrop-blur-lg  nav">
+    <div className="justify-center w-full mx-auto bg-white/60 sticky top-0 backdrop-blur-lg nav dark:bg-transparent">
       <div className="flex w-full px-6 py-2 mx-auto md:px-12 md:items-center justify-between flex-row lg:px-32 max-w-7xl z-99">
         <div className="flex flex-row items-center justify-between text-accent-500">
-          <a className=" text-xl font-bold tracking-tight text-black" href="/">Entropy<span className='font-normal text-zinc-500'> Gradient</span></a>
+          <a className=" text-xl font-bold tracking-tight text-black dark:text-zinc-200" href="/">Entropy<span className='font-normal text-zinc-500 dark:text-zinc-400'> Gradient</span></a>
           {/* <button className="rounded-lg md:hidden focus:outline-none focus:shadow-outline" onClick={() => setOpen(!open)}>
             <svg className="w-6 h-6" stroke="currentColor" fill="none" viewBox="0 0 24 24">
               <path className={open ? 'hidden' : 'inline-flex'} strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16M4 18h16"></path>
@@ -21,9 +22,10 @@ const Navbar = () => {
           <a className="px-4 py-2 text-sm text-gray-500 hover:text-blue-400 focus:outline-none focus:shadow-none focus:text-black/90 md:ml-auto" href="#features">Features</a>
           <a className="flex items-center justify-center h-8 px-4 py-2 text-xs font-semibold transition-all bg-white border border-gray-300 rounded-lg text-accent-600 hover:text-accent-500" href="#_" role="button">Download Saasify</a>
         </nav> */}
-        <nav className='flex-col'>
+        <nav className='flex gap-2'>
 
-        <NavBadge/>
+        <Badge version='v1.0' title='Know More' href='blogs/v1'  />
+        <ThemeToggle/>
         </nav>
 
       </div>

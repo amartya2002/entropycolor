@@ -2,7 +2,16 @@
 
 import { Drawer } from "vaul";
 
-export function MyDrawer({ title, hex, description, rgb, tailwind, css }) {
+type MyDrawerProps={
+  title: string;
+  hex: string;
+  rgb: string;
+  css: string;
+  description: string;
+  tailwind: string
+}
+
+export function MyDrawer({ title, hex, description, rgb, tailwind, css }: MyDrawerProps) {
   return (
     <Drawer.Root shouldScaleBackground>
       <Drawer.Trigger asChild>

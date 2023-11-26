@@ -1,0 +1,79 @@
+{
+  "weekly": [
+    {
+      "name": "Cherry Blossom",
+      "color": "bg-red-200",
+      "hex": "#FFA07A",
+      "rgb": "rgb(255, 160, 122)",
+      "css": ".bg-red-200",
+      "description": "A delicate shade reminiscent of cherry blossoms, providing a gentle and subtle touch to the design."
+    },
+    {
+      "name": "Cherry Blossom",
+      "color": "bg-red-200",
+      "hex": "#FFA07A",
+      "rgb": "rgb(255, 160, 122)",
+      "css": ".bg-red-200",
+      "description": "A delicate shade reminiscent of cherry blossoms, providing a gentle and subtle touch to the design."
+    },
+    {
+      "name": "Cherry Blossom",
+      "color": "bg-red-200",
+      "hex": "#FFA07A",
+      "rgb": "rgb(255, 160, 122)",
+      "css": ".bg-red-200",
+      "description": "A delicate shade reminiscent of cherry blossoms, providing a gentle and subtle touch to the design."
+    },
+    {
+      "name": "Cherry Blossom",
+      "color": "bg-red-200",
+      "hex": "#FFA07A",
+      "rgb": "rgb(255, 160, 122)",
+      "css": ".bg-red-200",
+      "description": "A delicate shade reminiscent of cherry blossoms, providing a gentle and subtle touch to the design."
+    }
+  ],
+
+  "alltime": [
+    {
+      "name": "Cherry Blossom",
+      "color": "bg-red-200",
+      "hex": "#FFA07A",
+      "rgb": "rgb(255, 160, 122)",
+      "css": ".bg-red-200",
+      "description": "A delicate shade reminiscent of cherry blossoms, providing a gentle and subtle touch to the design."
+    },
+    {
+      "name": "Cherry Blossom",
+      "color": "bg-red-200",
+      "hex": "#FFA07A",
+      "rgb": "rgb(255, 160, 122)",
+      "css": ".bg-red-200",
+      "description": "A delicate shade reminiscent of cherry blossoms, providing a gentle and subtle touch to the design."
+    },
+    {
+      "name": "Cherry Blossom",
+      "color": "bg-red-200",
+      "hex": "#FFA07A",
+      "rgb": "rgb(255, 160, 122)",
+      "css": ".bg-red-200",
+      "description": "A delicate shade reminiscent of cherry blossoms, providing a gentle and subtle touch to the design."
+    },
+    {
+      "name": "Cherry Blossom",
+      "color": "bg-red-200",
+      "hex": "#FFA07A",
+      "rgb": "rgb(255, 160, 122)",
+      "css": ".bg-red-200",
+      "description": "A delicate shade reminiscent of cherry blossoms, providing a gentle and subtle touch to the design."
+    },
+    {
+      "name": "Cherry Blossom",
+      "color": "bg-red-200",
+      "hex": "#FFA07A",
+      "rgb": "rgb(255, 160, 122)",
+      "css": ".bg-red-200",
+      "description": "A delicate shade reminiscent of cherry blossoms, providing a gentle and subtle touch to the design."
+    }
+  ]
+}
