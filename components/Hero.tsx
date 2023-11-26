@@ -2,13 +2,14 @@
 import React from 'react'
 import ColorCardLayout from './ColorCardLayout'
 import HeroIcon from './Hero-Icon'
+import ColorPick from './ColorPick'
 
 
 
 
 export default function Hero() {
   return (
-    <div className='max-w-7xl mx-auto'>
+    <div className='max-w-7xl mx-auto bg-zin-100'>
       <HeroIcon/>
       
       <section className=''>
@@ -25,13 +26,15 @@ export default function Hero() {
       Elevate your design with a handpicked 
         <span className="lg:block"> selection of vibrant color combinations. </span>
       </p>
-      <div className="mt-10 flex flex-col items-center justify-center gap-3 md:flex-row"><a className="flex h-10 w-full items-center justify-center rounded-md bg-blue-500 px-4 py-2 text-sm font-semibold text-white transition-all hover:bg-blue-600 md:w-auto" href="/#features">Learn more</a><a className="flex h-10 w-full items-center justify-center rounded-lg border border-gray-300 bg-white px-4 py-2 text-sm text-blue-500 transition-all hover:text-blue-400 md:w-auto md:font-semibold" href="#_"> Color Picker</a></div>
+      <div className="mt-10 flex flex-col items-center justify-center gap-3 md:flex-row"><a className="flex h-10 w-full items-center justify-center rounded-md bg-blue-500 px-4 py-2 text-sm font-semibold text-white transition-all hover:bg-blue-600 md:w-auto" href="/#features">Learn more</a><a className="flex h-10 w-full items-center justify-center rounded-lg border border-gray-300 bg-white px-4 py-2 text-sm text-blue-500 transition-all hover:text-blue-400 md:w-auto md:font-semibold" href="#_"> h</a></div>
     </div>
   </div>
 </section>
 
       
       <ColorCardLayout />
+     
+      <ColorPick/>
 
     </div>
   )

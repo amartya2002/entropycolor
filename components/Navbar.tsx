@@ -6,8 +6,8 @@ const Navbar = () => {
   const [open, setOpen] = useState(false);
 
   return (
-    <div className="justify-center w-full mx-auto bg-white/60 fixed top-0 backdrop-blur-lg">
-      <div className="flex w-full px-6 py-2 mx-auto md:px-12 md:items-center justify-between flex-row lg:px-32 max-w-7xl">
+    <div className="justify-center w-full mx-auto bg-white/60 sticky top-0 backdrop-blur-lg  nav">
+      <div className="flex w-full px-6 py-2 mx-auto md:px-12 md:items-center justify-between flex-row lg:px-32 max-w-7xl z-99">
         <div className="flex flex-row items-center justify-between text-accent-500">
           <a className=" text-xl font-bold tracking-tight text-black" href="/">Entropy<span className='font-normal text-zinc-500'> Gradient</span></a>
           {/* <button className="rounded-lg md:hidden focus:outline-none focus:shadow-outline" onClick={() => setOpen(!open)}>

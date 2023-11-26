@@ -12,3 +12,8 @@
     -ms-overflow-style: none;  /* IE and Edge */
     scrollbar-width: none;  /* Firefox */
 }
+
+.nav{
+    z-index:9999;
+}
+ 
