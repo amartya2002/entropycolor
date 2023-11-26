@@ -2,36 +2,25 @@ import React from 'react';
 
 const SubscribeSection = () => {
     return (
-        <section className=' max-w-7xl mx-auto mt-20'>
+        <section className=' max-w-7xl mx-auto mt-20 w-full'>
 
-            <div className=" text-center px-8 py24 md:px-12 lg:px-32 l;g:py-32 mb-10 ">
+            <div className=" text-center px-8  md:px-12 lg:px-32 mb-10 w-full ">
 
                 <div>
-                    <p className="text-4xl font-semibol leading-tight lg:leding-tight tracking-tighter text-gray-800 dark:text-zinc-200 lg:text-6xl">
-                        EGr is growing,
-                        <span className="text-blue-500  lg:block dark:text-transparent dark:bg-clip-text dark:bg-gradient-to-t from-zinc-700 to-zinc-200"> we can keep you notified.</span>
-                    </p>
-                    <p className="mt-4 text-base text-zinc-500 dark:text-zinc-400">
-                        Elevate your design with a handpicked
-                        <span className="lg:block"> selection of vibrant color combinations. </span>
-                    </p>
+                    <h1 className="text-4xl font-semibol leading-tight lg:leding-tight tracking-tighter text-gray-800 dark:text-zinc-200 sm:text-5xl md:text-6xl lg:text-7xl">
+                        As Entropy expands, <br className='hidden sm:block' />
+                        <span className="text-blue-500  lg:block dark:text-transparent dark:bg-clip-text dark:bg-gradient-to-t from-zinc-700 to-zinc-200">we need your feedback!</span>
+                    </h1>
+
+                    <h2 className="mt-4 md:text-lg text-zinc-500 dark:text-zinc-400">
+                        Much like the expanding entropy of our universe, our platform is set to grow.<span className="sm:block"> Expect exciting new features every month or two to enhance your experience. </span>
+                    </h2>
                 </div>
 
-                <div className="flex flex-col items-center max-w-sm pt-8 pb-12 mx-auto md:pt-6">
-                    <form className="flex flex-col items-center justify-center max-w-sm mx-auto" action="">
-                        <div className="flex flex-col w-full gap-4 mt-3 sm:flex-row">
-                            <input
-                                name="email"
-                                type="email"
-                                className="w-full px-4 py-2 text-sm font-medium text-gray-800 placeholder-gray-400 dark:bg-zinc-800 border border-gray-300 rounded-lg  focus:border-blue-500 focus:outline-none focus:ring-2 focus:ring-blue-600/50"
-                                placeholder="Enter your email"
-                                required
-                            />
-<button  className="flex h-10 w-full items-center justify-center rounded-lg border border-gray-300 dark:border-zinc-700  dark:bg-zinc-800 px-4 py-2 text-sm  dark:text-zinc-200 transition-all hover:text-blue-400 bg-blue-500 dark:hover:bg-zinc-700 md:w-auto md:font-semibold text-white" > Subscribe</button>
-                        </div>
-                    </form>
-                </div>
-            
+                
+                <a className="mt-4 md:mt-7 flex h-10 w-full items-center justify-center rounded-md bg-blue-500 dark:bg-zinc-100 px-4 py-2 text-sm font-semibold text-white dark:text-black transition-all hover:bg-blue-600 dark:hover:bg-zinc-200 md:w-72 mx-auto" href="/#features">Stay in the loop </a>
+               
+
             </div>
 
         </section>

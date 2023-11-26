@@ -13,6 +13,11 @@ const config: Config = {
   theme: {
     
     extend: {
+      animation: {
+        'spin-slow': 'spin 1.9s  infinite',
+        'pulse-better': 'pulse 3s linear infinite'
+        
+      },
       colors:{
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",

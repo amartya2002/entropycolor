@@ -17,7 +17,7 @@ export default function Hero() {
 
   return (
 
-    <main className='max-w-7xl mx-auto bg-white dark:bg-gradient-to-br from-black to-zinc-800'>
+    <main className='max-w-7xl mx-auto '>
       <HeroIcon />
 
       
