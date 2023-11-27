@@ -2,6 +2,7 @@
 import React, { useState } from 'react';
 import Badge from './Badge'; //need types
 import ThemeToggle from './ThemeToggle';
+import Link from 'next/link';
 
 const Navbar = () => {
   const [open, setOpen] = useState(false);
@@ -10,7 +11,7 @@ const Navbar = () => {
     <div className="justify-center w-full mx-auto bg-white/60 sticky top-0 backdrop-blur-lg nav dark:bg-transparent">
       <div className="flex w-full px-6 py-2 mx-auto md:px-12 md:items-center justify-between flex-row lg:px-32 max-w-7xl z-99">
         <div className="flex flex-row items-center justify-between text-accent-500">
-          <a className=" text-xl font-bold tracking-tight text-black dark:text-zinc-200" href="/">Entropy<span className='font-normal text-zinc-500 dark:text-zinc-400'> Gradient</span></a>
+          <Link className=" text-xl font-bold tracking-tight text-black dark:text-zinc-200" href="/">Entropy<span className='font-normal text-zinc-500 dark:text-zinc-400'> Gradient</span></Link>
           {/* <button className="rounded-lg md:hidden focus:outline-none focus:shadow-outline" onClick={() => setOpen(!open)}>
             <svg className="w-6 h-6" stroke="currentColor" fill="none" viewBox="0 0 24 24">
               <path className={open ? 'hidden' : 'inline-flex'} strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16M4 18h16"></path>
@@ -24,7 +25,7 @@ const Navbar = () => {
         </nav> */}
         <nav className='flex gap-2'>
 
-        <Badge version='v1.0' title='Know More' href='blogs/v1'  />
+        <Badge version='v1.0' title='Know More' href='/blogs/v1'  />
         <ThemeToggle/>
         </nav>
 

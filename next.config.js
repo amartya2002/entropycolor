@@ -1,7 +1,7 @@
 /** @type {import('next').NextConfig} */
 
-// const isProduction = process.env.NODE_ENV === "production";
-// const assetPrefix = isProduction ? "/entropycolor" : "";
+const isProduction = process.env.NODE_ENV === "production";
+const assetPrefix = isProduction ? "/entropycolor" : "";
 
 const nextConfig = {
   output: "export",
@@ -9,8 +9,8 @@ const nextConfig = {
     unoptimized: true,
   },
   trailingSlash: true,
-  assetPrefix:  '/entropycolor',
-  basePath: '/entropycolor/',
+  assetPrefix,
+  basePath: assetPrefix
 };
 
 module.exports = nextConfig;
