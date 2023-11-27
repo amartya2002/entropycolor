@@ -34,7 +34,7 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <head />
-      <body className='bg-white dark:bg-gradient-to-br from-black to-zinc-800'>
+      <body className=''>
 
         <ThemeProvider
           attribute="class"
@@ -42,11 +42,14 @@ export default function RootLayout({
           enableSystem
           disableTransitionOnChange
         >
-          {isLoading ? <Splash finishLoading={() => setIsLoading(false)} /> :    <>
-            <Navbar />
+          {isLoading ? <Splash finishLoading={() => setIsLoading(false)} /> :  <div className='bg-white dark:bg-gradient-to-br from-black to-zinc-900'>
+          <Navbar />
             {children}
             <Footer/>
-          </> }
+          </div> 
+          
+           
+          }
       
 
 

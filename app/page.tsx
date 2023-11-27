@@ -5,8 +5,11 @@ import SubscribeSection from "@/components/Subscribe"
 export default function Home() {
   return (
     <>
+    <div className="">
     <Hero />
     <SubscribeSection/>
+    </div>
+    
     
     </>
 

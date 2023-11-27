@@ -18,30 +18,30 @@ export function MyDrawer({ title, hex, description, rgb, tailwind, css }: MyDraw
         <button>Explore</button>
       </Drawer.Trigger>
       <Drawer.Portal>
-        <Drawer.Overlay className="fixed inset-0 bg-zinc-900/20 backdrop-blur-2xl" />
-        <Drawer.Content className="bg-zinc-100 flex flex-col rounded-t-[1.5rem]  h-[56%] mt-24 fixed bottom-0 left-0 right-0">
-          <div className="p-4 bg-white rounded-t-[1.5rem] flex-1">
+        <Drawer.Overlay className="fixed inset-0 bg-zinc-900/20 dark:bg-black/60 backdrop-blur-2xl" />
+        <Drawer.Content className="bg-zinc-100 dark:bg-black flex flex-col rounded-t-[1.5rem]  h-[56%] mt-24 fixed bottom-0 left-0 right-0">
+          <div className="p-4 bg-white dark:bg-zinc-800 rounded-t-[1.5rem] flex-1">
             <div className="mx-auto w-12 h-1.5 flex-shrink-0 rounded-full bg-gradient-to-l from-zinc-300 to-black/50 mb-8 " />
             <div className="max-w-md mx-auto">
               <Drawer.Title className="font-medium text-lg mb-4">
                 {title}
               </Drawer.Title>
-              <Drawer.Description className="text-zinc-600 mb-2">
+              <Drawer.Description className="text-zinc-600 dark:text-zinc-400 mb-2">
                 {description}
               </Drawer.Description>
-              <hr className="my-4" />
+              <div className="border-b my-4 dark:border-zinc-700 border-zinc-300"></div>
 
-              <p  className=" mb-2 font-medium text-zinc-700">
-                HEX: <span  className=" text-zinc-500 font-normal">{hex}</span>
+              <p  className=" mb-2 font-medium text-zinc-700 dark:text-zinc-300">
+                HEX: <span  className=" text-zinc-500 font-normal dark:text-zinc-400">{hex}</span>
               </p>
-              <p className=" mb-2 font-medium text-zinc-700">
-                Tailwind: <span className="text-zinc-500 font-normal">{tailwind}</span>
+              <p className=" mb-2 font-medium text-zinc-700 dark:text-zinc-300">
+                Tailwind: <span className="text-zinc-500 dark:text-zinc-400 font-normal">{tailwind}</span>
               </p>
-              <p className=" mb-2 font-medium text-zinc-700">
-                CSS: <span className="text-zinc-500 font-normal">{css}</span>
+              <p className=" mb-2 font-medium text-zinc-700 dark:text-zinc-300">
+                CSS: <span className="text-zinc-500 dark:text-zinc-400 font-normal">{css}</span>
               </p>
-              <p className=" mb-2 font-medium text-zinc-700">
-                RGB: <span className="text-zinc-500 font-normal">{rgb}</span>
+              <p className=" mb-2 font-medium text-zinc-700 dark:text-zinc-300">
+                RGB: <span className="text-zinc-500 dark:text-zinc-400 font-normal">{rgb}</span>
               </p>
 
             </div>

@@ -15,7 +15,7 @@ export default function Splash({ finishLoading }: any) {
     return (
 
 
-        <div className="bg-black h-[100vh] flex flex-col justify-center items-center   ">
+        <div className="bg-gradient-to-br from-black to-zinc-900 h-[100vh] flex flex-col justify-center items-center   ">
 
             <SplashIcon />
 

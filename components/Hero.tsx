@@ -17,7 +17,7 @@ export default function Hero() {
 
   return (
 
-    <main className='max-w-7xl mx-auto '>
+    <main className='max-w-7xl mx-auto  '>
       <HeroIcon />
 
       
