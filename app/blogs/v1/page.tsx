@@ -147,7 +147,7 @@ const BlogArticle = () => {
       </div>
 
       <ul className="list-disc list-outside space-y-5 ps-5 text-lg text-gray-800 dark:text-gray-200">
-        <li className="ps-2">Phello" <a className="text-blue-600 decoration-2 hover:underline font-medium" href="#">said</a> Stewart Scott-Curran, Inte Director of Brand Design.</li>
+        <li className="ps-2">Phell <a className="text-blue-600 decoration-2 hover:underline font-medium" href="#">said</a> Stewart Scott-Curran, Inte Director of Brand Design.</li>
         <li className="ps-2">hello <a className="text-blue-600 decoration-2 hover:underline font-medium" href="#">Eventbrite</a>.</li>
       </ul>
 
