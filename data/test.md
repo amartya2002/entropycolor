@@ -1,3 +1,3 @@
-background: #2BC0E4; 
-background: -webkit-linear-gradient(to right, #EAECC6, #2BC0E4); 
-background: linear-gradient(to right, #EAECC6, #2BC0E4); 
+background: #2BC0E4;
+background: -webkit-linear-gradient(to right, #EAECC6, #2BC0E4);
+background: linear-gradient(to right, #EAECC6, #2BC0E4);

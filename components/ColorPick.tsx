@@ -5,8 +5,8 @@ export default function App() {
   const [color, setColor] = useColor("#561ecb");
 
   return (
-    <div className="mx-auto md:w-[30rem] rounded-2xl border-none my-6 shadow-xl ">
-      <ColorPicker  color={color} onChange={setColor} />
+    <div className="mx-auto my-6 rounded-2xl border-none shadow-xl md:w-[30rem] ">
+      <ColorPicker color={color} onChange={setColor} />
     </div>
-  )
+  );
 }

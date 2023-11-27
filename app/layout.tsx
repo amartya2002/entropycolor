@@ -1,15 +1,15 @@
-"use client"
-import type { Metadata } from 'next'
-import Splash from '@/components/SplashScreen';
+"use client";
+import type { Metadata } from "next";
+import Splash from "@/components/SplashScreen";
 
-import React, { useEffect, useState } from 'react';
-import { Inter } from 'next/font/google'
-import './globals.css'
-import { ThemeProvider } from "@/components/theme-provider"
-import Navbar from '@/components/Navbar'
-import Footer from '@/components/Footer';
+import React, { useEffect, useState } from "react";
+import { Inter } from "next/font/google";
+import "./globals.css";
+import { ThemeProvider } from "@/components/theme-provider";
+import Navbar from "@/components/Navbar";
+import Footer from "@/components/Footer";
 
-const inter = Inter({ subsets: ['latin'] })
+const inter = Inter({ subsets: ["latin"] });
 
 // export const metadata: Metadata = {
 //   title: 'Entropy Colors',
@@ -19,7 +19,7 @@ const inter = Inter({ subsets: ['latin'] })
 export default function RootLayout({
   children,
 }: {
-  children: React.ReactNode
+  children: React.ReactNode;
 }) {
   const [isLoading, setIsLoading] = useState(true);
   useEffect(() => {
@@ -34,32 +34,24 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <head />
-      <body className=''>
-
+      <body className="">
         <ThemeProvider
           attribute="class"
           defaultTheme="system"
           enableSystem
           disableTransitionOnChange
         >
-          {isLoading ? <Splash finishLoading={() => setIsLoading(false)} /> :  <div className='bg-white dark:bg-gradient-to-br from-black to-zinc-900'>
-          <Navbar />
-            {children}
-            <Footer/>
-          </div> 
-          
-           
-          }
-      
-
-
-
+          {isLoading ? (
+            <Splash finishLoading={() => setIsLoading(false)} />
+          ) : (
+            <div className="bg-white from-black to-zinc-900 dark:bg-gradient-to-br">
+              <Navbar />
+              {children}
+              <Footer />
+            </div>
+          )}
         </ThemeProvider>
-
-
       </body>
     </html>
-  )
+  );
 }
-
-
