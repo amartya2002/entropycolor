@@ -5,7 +5,7 @@ const SubscribeSection = () => {
     <section className=" mx-auto mt-20 w-full max-w-7xl">
       <div className=" mb-10 w-full  px-8 text-center md:px-12 lg:px-32 ">
         <div>
-          <h1 className="font-semibol lg:leding-tight text-4xl leading-tight tracking-tighter text-gray-800 dark:text-zinc-200 sm:text-5xl md:text-6xl lg:text-7xl">
+          <h1 className="text-4xl leading-tight tracking-tighter text-gray-800 dark:text-zinc-200 sm:text-5xl md:text-6xl lg:text-7xl">
             As Entropy expands, <br className="hidden sm:block" />
             <span className="from-zinc-700  to-zinc-200 text-blue-500 dark:bg-gradient-to-t dark:bg-clip-text dark:text-transparent lg:block">
               we need your feedback!

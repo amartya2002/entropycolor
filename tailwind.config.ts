@@ -9,9 +9,22 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      
+      // keyframes: {
+      //   pulseslow: {
+      //     '0%': { opacity: '1' },
+      //     '50%': { opacity: '0' },
+
+          
+      //     '100%': { opacity: '1' },
+      //   },
+      // },
+
+
       animation: {
         "spin-slow": "spin 1.9s  infinite",
-        "pulse-better": "pulse 3s linear infinite",
+        "pulse-slow": "pulseslow 3s cubic-bezier(0.4, 0, 0.6, 1) infinite"
+        
       },
     },
   },

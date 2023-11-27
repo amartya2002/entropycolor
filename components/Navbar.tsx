@@ -10,13 +10,13 @@ const Navbar = () => {
   return (
     <div className="nav sticky top-0 mx-auto w-full justify-center bg-white/60 backdrop-blur-lg dark:bg-transparent">
       <div className="z-99 mx-auto flex w-full max-w-7xl flex-row justify-between px-6 py-2 md:items-center md:px-12 lg:px-32">
-        <div className="text-accent-500 flex flex-row items-center justify-between">
+        <div className=" flex flex-row items-center justify-between">
           <Link
-            className=" text-xl font-bold tracking-tight text-black dark:text-zinc-200"
+            className=" text-xl font-semibold  text-gray-800 dark:text-zinc-200  "
             href="/"
           >
             Entropy
-            <span className="font-normal text-zinc-500 dark:text-zinc-400">
+            <span className="font-normal from-zinc-100  to-zinc-700 text-zinc-600  dark:bg-gradient-to-br dark:bg-clip-text dark:text-transparent ">
               {" "}
               Gradient
             </span>

@@ -24,7 +24,7 @@ export default function HeroIcon({ width, height }: HeroIconProps) {
 
   return (
     <div className="md:pt-18 max-w-7xl pb-8 pt-20">
-      <div className=" flex animate-pulse-better items-center justify-center">
+      <div className=" flex animate-pulse-slow  items-center justify-center">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width={width || 154}

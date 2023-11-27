@@ -18,7 +18,7 @@ export default function Hero() {
 
       <section className="px-8  md:px-12 lg:px-32 ">
         <div className="mb-10 text-center">
-          <h1 className="font-semibol lg:leding-tight text-4xl leading-tight tracking-tighter text-gray-800 dark:text-zinc-200 sm:text-5xl md:text-6xl lg:text-7xl">
+          <h1 className="text-4xl leading-tight tracking-tighter text-gray-800 dark:text-zinc-200 sm:text-5xl md:text-6xl lg:text-7xl">
             More than a gradient palette, <br className="hidden sm:block" />
             <span className="from-zinc-700  to-zinc-200 text-blue-500 dark:bg-gradient-to-t dark:bg-clip-text dark:text-transparent lg:block">
               {" "}
@@ -43,7 +43,7 @@ export default function Hero() {
             </a>
             <button
               onClick={handleButtonClick}
-              className="flex h-10 w-full items-center justify-center rounded-lg border border-gray-300 bg-white px-4 py-2 text-sm text-blue-500 transition-all hover:text-blue-400 dark:border-zinc-700 dark:bg-zinc-800 dark:text-zinc-200 dark:hover:bg-zinc-700 md:w-auto md:font-semibold"
+              className="flex h-10 w-full items-center justify-center rounded-lg border border-gray-300 bg-white px-4 py-2 text-sm font-medium text-blue-500 transition-all hover:text-blue-400 dark:border-zinc-700 dark:bg-zinc-800 dark:text-zinc-200 dark:hover:bg-zinc-700 md:w-auto md:font-semibold"
             >
               {" "}
               Pick a Color
