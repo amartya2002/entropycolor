@@ -16,7 +16,7 @@ const Navbar = () => {
             href="/"
           >
             Entropy
-            <span className="font-normal from-zinc-100  to-zinc-700 text-zinc-600  dark:bg-gradient-to-br dark:bg-clip-text dark:text-transparent ">
+            <span className="from-zinc-100 to-zinc-700  font-normal text-zinc-600  dark:bg-gradient-to-br dark:bg-clip-text dark:text-transparent ">
               {" "}
               Gradient
             </span>

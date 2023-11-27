@@ -55,8 +55,6 @@ export default function Hero() {
       </section>
       <HorizontalCardLayout />
       <ColorCardLayout />
-
-      
     </main>
   );
 }

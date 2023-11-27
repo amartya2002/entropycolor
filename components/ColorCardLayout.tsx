@@ -4,7 +4,7 @@ import colors from "@/data/colors.json";
 
 const ColorCardLayout = () => (
   <div className="mx-8 max-w-7xl md:px-12 lg:px-32 ">
-    <p className="  pb-8 text-left text-2xl leading-none md:leading-tight tracking-tight  text-gray-800 dark:text-zinc-200  ">
+    <p className="  pb-8 text-left text-2xl leading-none tracking-tight text-gray-800  dark:text-zinc-200 md:leading-tight  ">
       Some shades for{" "}
       <span className="block from-zinc-500 to-zinc-200 text-blue-500 dark:bg-gradient-to-t dark:bg-clip-text dark:text-transparent ">
         your new project.

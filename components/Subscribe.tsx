@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 const SubscribeSection = () => {
@@ -23,12 +24,12 @@ const SubscribeSection = () => {
           </h2>
         </div>
 
-        <a
+        <Link
           className="mx-auto mt-4 flex h-10 w-full items-center justify-center rounded-md bg-blue-500 px-4 py-2 text-sm font-semibold text-white transition-all hover:bg-blue-600 dark:bg-zinc-100 dark:text-black dark:hover:bg-zinc-200 md:mt-7 md:w-72"
           href="/#features"
         >
           Stay in the loop{" "}
-        </a>
+        </Link>
       </div>
     </section>
   );
