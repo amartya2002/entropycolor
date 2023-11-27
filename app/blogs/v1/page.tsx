@@ -63,13 +63,13 @@ const BlogArticle = () => {
               <p className="text-zinc-600  dark:text-zinc-400">
                 Embark on a journey of color exploration with our website, a
                 treasure trove of handpicked gradients and color palettes
-                designed to elevate your creative projects. Whether you're a
+                designed to elevate your creative projects. Whether you&apos;re a
                 seasoned designer or simply someone who loves to add a splash of
                 color to your work, our collection has something for everyone.
               </p>
             </div>
 
-            <p className=" text-zinc-600 dark:text-zinc-400">
+            <p className="text-zinc-600 dark:text-zinc-400">
               We&apos;re constantly expanding our offerings to cater to your
               diverse needs. In the coming days, we&apos;ll be introducing a
               powerful color picker that empowers you to create your own custom
