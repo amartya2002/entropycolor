@@ -6,10 +6,15 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
+    "export": "next build && next export && touch out/.nojekyll",
+    "deploy": "gh-pages -d out -t true",
+    "cds": "git add . && git commit -m 'Awesome' && pnpm run export && pnpm run deploy",
+    "ds": "pnpm run export && pnpm run deploy",
     "lint": "next lint"
   },
   "dependencies": {
     "@radix-ui/react-icons": "^1.3.0",
+    "gh-pages": "^6.1.0",
     "next": "14.0.3",
     "next-themes": "^0.2.1",
     "react": "^18",
