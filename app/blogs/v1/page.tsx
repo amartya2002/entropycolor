@@ -1,6 +1,7 @@
 import React from 'react';
 import dp from '@/public/dp.jpg'
 import Image from 'next/image';
+import Link from 'next/link';
 
 const BlogArticle = () => {
   return (
@@ -163,7 +164,7 @@ const BlogArticle = () => {
   <div className="inline-block bg-white shadow-md rounded-full py-3 px-4 dark:bg-gray-800">
     <div className="flex items-center gap-x-1.5">
      
-   <a href="/" className='scroll-smooth'>Back to Home</a>
+   <Link href="/" className='scroll-smooth'>Back to Home</Link>
     
     </div>
   </div>
