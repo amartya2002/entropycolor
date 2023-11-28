@@ -4,6 +4,7 @@ import ColorCardLayout from "./ColorCardLayout";
 import HeroIcon from "./Hero-Icon";
 import ColorPick from "./ColorPick";
 import HorizontalCardLayout from "./HorizontCardLay";
+import Link from "next/link";
 
 export default function Hero() {
   const [isComponentVisible, setIsComponentVisible] = useState(false);
@@ -35,12 +36,12 @@ export default function Hero() {
           </h2>
 
           <div className="mt-10 flex flex-col items-center justify-center gap-3 md:flex-row">
-            <a
+            <Link
               className="flex h-10 w-full items-center justify-center rounded-md bg-blue-500 px-4 py-2 text-sm font-semibold text-white transition-all hover:bg-blue-600 dark:bg-zinc-100 dark:text-black dark:hover:bg-zinc-200 md:w-auto"
-              href="/#features"
+              href="/blogs/v1"
             >
               Learn more
-            </a>
+            </Link>
             <button
               onClick={handleButtonClick}
               className="flex h-10 w-full items-center justify-center rounded-lg border border-gray-300 bg-white px-4 py-2 text-sm font-medium text-blue-500 transition-all hover:text-blue-400 dark:border-zinc-700 dark:bg-zinc-800 dark:text-zinc-200 dark:hover:bg-zinc-700 md:w-auto md:font-semibold"

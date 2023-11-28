@@ -101,9 +101,9 @@ const BlogArticle = () => {
       <div className=" px-8 text-center">
         <Link
           className="mx-auto mt-4 flex h-10 w-full items-center justify-center rounded-md bg-blue-500 px-4 py-2 text-sm font-semibold text-white transition-all hover:bg-blue-600 dark:bg-zinc-100 dark:text-black dark:hover:bg-zinc-200 md:mt-7 md:w-72"
-          href="/#features"
+          href="/"
         >
-          Stay in the loop{" "}
+          Start Exploring{" "}
         </Link>
       </div>
       {/* End Blog Article */}
