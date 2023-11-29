@@ -9,13 +9,13 @@ interface CopyClipboardProps {
 
 const sampleText = 'lklklk';
 
-const CopyClipboard: React.FC<CopyClipboardProps> = () => {
+const CopyClipboard: React.FC<CopyClipboardProps> = ({text}) => {
   const [clipboard, setClipboard] = useClippy();
   const [copySuccess, setCopySuccess] = useState(false);
 
   const handleCopyClick = () => {
     try {
-      setClipboard(sampleText);
+      setClipboard(text);
       setCopySuccess(true);
 
       // Reset success state after a short delay (e.g., 2 seconds)

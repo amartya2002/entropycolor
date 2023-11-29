@@ -2,6 +2,8 @@
 import { useState } from "react";
 import { Drawer } from "vaul";
 import CopyClipboard from "./CopyClipboard";
+import Cliptest from "./Cliptest";
+import Card from "./Card";
 
 type MyDrawerProps = {
   title: string;
@@ -43,14 +45,14 @@ export function MyDrawer({
               <p className="mb-2 font-medium text-zinc-700 dark:text-zinc-300">
                 HEX:{" "}
                 <span className=" font-normal text-zinc-500 dark:text-zinc-400">
-                  {hex} <CopyClipboard text={hex} />
+                  {hex} <Cliptest text={hex} />
                 </span>
               </p>
 
               <p className=" mb-2 font-medium text-zinc-700 dark:text-zinc-300">
                 Tailwind:{" "}
                 <span className="font-normal text-zinc-500 dark:text-zinc-400">
-                  {tailwind} <CopyClipboard text={tailwind} />
+                  {tailwind} <Cliptest text={tailwind} />
                 </span>
               </p>
               <p className=" mb-2 font-medium text-zinc-700 dark:text-zinc-300">
@@ -68,6 +70,8 @@ export function MyDrawer({
             </div>
           </div>
         </Drawer.Content>
+
+
       </Drawer.Portal>
     </Drawer.Root>
   );
