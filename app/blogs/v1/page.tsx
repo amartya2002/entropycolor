@@ -1,8 +1,9 @@
-import React from "react";
+"use client"
+import React, {useState} from "react";
 import dp from "@/public/dp.jpg";
 import Image from "next/image";
 import Link from "next/link";
-
+import Example from "@/components/HeadlessDrawer";
 
 const BlogArticle = () => {
   return (
@@ -64,9 +65,10 @@ const BlogArticle = () => {
               <p className="text-zinc-600  dark:text-zinc-400">
                 Embark on a journey of color exploration with our website, a
                 treasure trove of handpicked gradients and color palettes
-                designed to elevate your creative projects. Whether you&apos;re a
-                seasoned designer or simply someone who loves to add a splash of
-                color to your work, our collection has something for everyone.
+                designed to elevate your creative projects. Whether you&apos;re
+                a seasoned designer or simply someone who loves to add a splash
+                of color to your work, our collection has something for
+                everyone.
               </p>
             </div>
 
@@ -107,6 +109,18 @@ const BlogArticle = () => {
           Start Exploring{" "}
         </Link>
       </div>
+
+      <div className=" px-8 text-center">
+        <Link
+          className="mx-auto mt-4 flex h-10 w-full items-center justify-center rounded-md bg-blue-500 px-4 py-2 text-sm font-semibold text-white transition-all hover:bg-blue-600 dark:bg-zinc-100 dark:text-black dark:hover:bg-zinc-200 md:mt-7 md:w-72"
+          href=""
+        >
+          Open Drawer{" "}
+          <Example/>
+        </Link>
+        
+      </div>
+
       {/* End Blog Article */}
     </>
   );
