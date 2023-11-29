@@ -19,12 +19,15 @@
     "next-themes": "^0.2.1",
     "react": "^18",
     "react-color-palette": "^7.1.0",
+    "react-copy-to-clipboard": "^5.1.0",
     "react-dom": "^18",
+    "use-clippy": "^1.0.9",
     "vaul": "^0.7.9"
   },
   "devDependencies": {
     "@types/node": "^20",
     "@types/react": "^18",
+    "@types/react-copy-to-clipboard": "^5.0.7",
     "@types/react-dom": "^18",
     "autoprefixer": "^10.0.1",
     "eslint": "^8",
