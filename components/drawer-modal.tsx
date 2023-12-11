@@ -22,7 +22,7 @@ export function MyDrawer({
   return (
     <Drawer.Root shouldScaleBackground>
       <Drawer.Trigger asChild>
-        <button>Explore</button>
+        <button className="w-full h-full">Explore</button>
       </Drawer.Trigger>
       <Drawer.Portal>
         <Drawer.Overlay className="fixed inset-0 bg-zinc-900/20 backdrop-blur-2xl dark:bg-black/60" />

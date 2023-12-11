@@ -1,8 +1,8 @@
 "use client";
 import React, { useState } from "react";
 import Badge from "./Badge"; //need types
-import ThemeToggle from "./ThemeToggle";
 import Link from "next/link";
+import ThemeToggleX from "./ThemeToggleX";
 
 const Navbar = () => {
   const [open, setOpen] = useState(false);
@@ -32,10 +32,10 @@ const Navbar = () => {
           <a className="px-4 py-2 text-sm text-gray-500 hover:text-blue-400 focus:outline-none focus:shadow-none focus:text-black/90 md:ml-auto" href="#features">Features</a>
           <a className="flex items-center justify-center h-8 px-4 py-2 text-xs font-semibold transition-all bg-white border border-gray-300 rounded-lg text-accent-600 hover:text-accent-500" href="#_" role="button">Download Saasify</a>
         </nav> */}
-        <nav className="flex gap-2">
+        <div className="flex gap-4 ">
           <Badge version="v1.0" title="Know More" href="/blogs/v1" />
-          <ThemeToggle />
-        </nav>
+          <ThemeToggleX />
+        </div>
       </div>
     </div>
   );

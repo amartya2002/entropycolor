@@ -31,7 +31,6 @@ const HorizontalColorCard = ({
         rgb={rgb}
       />
     </div>
-    <div className="mx-auto flex h-full items-center justify-center text-black"></div>
   </div>
 );
 
