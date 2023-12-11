@@ -19,7 +19,7 @@ const HorizontalColorCard = ({
   desc,
 }: ColorCardProps) => (
   <div
-    className={`${color} group relative m-2 h-20 w-[20rem] rounded-2xl shadow-md duration-200 hover:scale-[1.01] sm:w-[35rem]  `}
+    className={`${color} group relative h-20 w-[19rem] rounded-2xl shadow-md duration-200 hover:scale-[1.01] sm:w-[35rem]  `}
   >
     <div className="invisible flex h-full w-full items-center justify-center rounded-2xl bg-black/20 text-white backdrop-blur-xl group-hover:visible">
       <MyDrawer
